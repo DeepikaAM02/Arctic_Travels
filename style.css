@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav 
+{
+    height: 70px;
+    background:white;
+    color:white;
+    padding: 0 2rem;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    font-size: large;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.2);
+    z-index: 1;
+
+}
+.overview,
+.account 
+{
+  display: flex;
+}
+
+.logo h2 
+{
+    text-decoration: overline;
+    font-style: italic;
+    color: #09586c;    
+    cursor: pointer;
+    margin: 0 0.5rem;
+}
+nav li 
+{
+    list-style: none;
+    margin: 0 0.5rem;
+    font-size: 16px;
+    font-family: 'libre Baskerville';
+}
+nav a 
+{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover 
+{
+    color: #a0ebfd;
+}
+nav a::after 
+{
+    content: "";
+    display: block;
+    height: 3px;
+    background: #a0ebfd;
+    width: 0%;
+    transition: all ease-in-out 300ms;
+}
+nav a:hover::after 
+{
+    width: 100%;
+}
+.icon-button 
+{
+    position: relative;
+    color: black;
+    border: none;
+    font-size: 16px;
+    padding: 3px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.icon-button:hover 
+{
+    background: #a0ebfd;
+}
+#divtitle
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-image: url(places/image1.jpeg);
+    background-repeat: no-repeat;  
+    background-position: center;
+    background-size: cover;
+}
+#divtitle h1
+{
+    font-size: 3rem;
+    font-family: lobster;
+    color:aliceblue;
+}
+#divtitle p{
+    font-size: 1.5rem;
+    font-family: lobster;
+    color: black;
+}
+
+#firstdiv,#seconddiv,#thirddiv,#fourthdiv
+{
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    border-radius: 8px;
+    gap: 2rem;
+    position: relative;
+    top: 20%;
+    margin-top: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#firstdiv h1,
+#seconddiv h1,
+#thirddiv h1,
+#fourthdiv h1{
+    font-family: "Oswald", sans-serif;
+    
+}
+
+.herotop
+{
+    height: 400px;
+    background-color: rgb(254, 253, 251);
+    margin: 0 auto;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+.firstCon
+{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.herotop img
+{
+    width:100px;
+    height: 100px;
+}
+.exlporeRegions {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+.region {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.region .descibe{
+    display: none;
+   width: 100%;
+}
+
+.region img {
+    height: 13rem;
+    width: 20rem;
+    border-radius: 15px;
+}
+
+.region button {
+    background-color: blue;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+.region button:hover {
+    background-color: green;
+    cursor: pointer;
+}
+.exlporeLodge{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+#seconddiv{
+    
+    overflow: hidden;
+    color: black;
+}
+.Lodge{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.Lodge img{
+    height: 13rem;
+    width: auto;
+    border-radius: 15px;
+}
+.Lodge button{
+    background-color: blue;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+.Lodge button:hover{
+    background-color: green;
+    cursor: pointer;
+}
+
+
+.exlporePasses {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.passes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.passes img {
+    height: 13rem;
+    width: 20rem;
+    border-radius: 15px;
+}
+
+.passes button {
+    background-color: blue;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+.passes button:hover {
+    background-color: green;
+    cursor: pointer;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    gap: 3rem;
+    margin-top: 5rem;
+    background-color: rgb(206, 206, 206);
+}
+.footerCon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #254336;
+}
+.footerCon p{
+    padding-top: 1rem;
+    color: blue;
+    cursor: pointer;
+}
+.footerCon a{
+    text-decoration: none;
+}
+.footerCon p:hover{
+    color: green;
+}
+.copyRigths{
+    text-align: center;
+}
+
+
+
+  
+
+  
+

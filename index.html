@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arctic Travels</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href=
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+          <h2>Arctic Travels</h2>
+        </div>
+          <ul class="overview">
+            <li><a href="#firstdiv">Regions</a></li>
+            <li><a href="#seconddiv">Lodging</a></li>
+            <li><a href="#thirddiv">Hotels</a></li>
+            <li><a href="#fourthdiv">Passes</a></li>
+          </ul>
+        </div>
+        <div>
+          <ul class="account">
+            <button class="icon-button">
+                <i class="fas fa-bell"></i>
+            </button>
+            <li><a href="#">Sign in</a></li>
+          </ul>
+        </div>
+    </nav>
+    <div id="divtitle">
+        <h1>Plan the Perfect Winter Trip</h1><br>
+        <p>Easily Plan your Ideal Ski Trip from home with the help of professionals </p>
+    </div>
+    <div id="firstdiv" data-aos="fade-right" data-aos-duration="500">
+      <h1>Explore Regions</h1>
+      <div class = "exlporeRegions"  >
+
+        <!-- region 1 -->
+            <div class="region" data-aos="fade-up" data-aos-duration="3000">
+              <div>
+                <img src="./places/image6.jpg" alt="">
+              </div>
+              
+                  <div class="place">
+                    <h2>Kargil</h2>
+                    <h4>Jammu and Kashmir</h4>
+                  </div>
+                  <div class="price">
+                    <h4>About</h4>
+                    <p>Kargil is nestled in the Zaskar Range of the Himalayas.
+                      It  is the site of border conflicts between India and Pakistan, including the Kargil War in 1999.
+
+                    </p>
+                  </div>
+                  <div>
+                    <button onclick="region1()">Explore</button>
+                  </div>
+
+                  <div class="descibe" id="descibes1" >
+                    <h4>Description</h4>
+                    <p>Kargil has historical significance, dating back to the 16th century, blending Buddhist and Turkish architectural influences. Most of its residents are of Balti origin, and the majority follow the Shiʿi Muslim faith. Due to its proximity to the line of control, Kargil has been the site of border conflicts between India and Pakistan.</p>
+                  </div>
+              </div>
+
+              <!-- region 2 -->
+            <div class="region" data-aos="fade-up" data-aos-duration="3000">
+              <div>
+                <img src="./places/image7.jpg" alt="">
+              </div>
+                  <div class="place">
+                    <h2>Hemkund Sahib</h2>
+                    <h4>Uttarakhan</h4>
+                  </div>
+                  <div class="price">
+                    <h4>About</h4>
+                    <p>Hemkund Sahib is a Sikh pilgrimage site in Chamoli district.
+                      The glacial lake next to the gurdwara is pristine, earning it the name “Lake of Snow.”
+                    </p>
+                  </div>
+                  <div>
+                    <button onclick="region2()">Explore</button>
+                  </div>
+
+                  <div class="descibe" id="descibes2" >
+                    <h4>Description</h4>
+                    <p>Situated at a breathtaking height of over 15,000 feet above sea level in the Himalayan ranges, Hemkund Sahib holds immense religious significance. According to the autobiographical account of the tenth Sikh Guru, Gobind Singh, it was at Hemkund, adorned with seven snow peaks, that he meditated in his previous birth.</p>
+                  </div>
+            </div>
+
+            <!-- region 3 -->
+            <div class="region" data-aos="fade-up" data-aos-duration="3000">
+              <div>
+                <img src="./places/image8.jpeg" alt="">
+              </div>
+                  <div class="place">
+                    <h2>Leh Ladakh</h2>
+                    <h4>Jammu and Kashmir</h4>
+                  </div>
+                  <div class="price">
+                    <h4>About</h4>
+                    <p>Leh was the historical capital of the Kingdom of Ladakh.
+                      Leh serves as the gateway to the stunning Ladakh region, attracting adventure enthusiasts, trekkers, and spiritual seekers.
+
+                    </p>
+                  </div>
+                  <div>
+                    <button onclick="region3()">Explore</button>
+                  </div>
+
+                  <div class="descibe" id="descibes3" >
+                    <h4>Description</h4>
+                    <p>Leh Ladakh is a region in northern India that captures the imagination with its dramatic landscapes, rich cultural heritage, and unique way of life. Nestled in the Himalayas, Leh, the largest town, serves as the gateway to this magical place.</p>
+                  </div>
+            </div>
+
+            <!-- region 4 -->
+          <div class="region" data-aos="fade-up" data-aos-duration="3000">
+            <div>
+                <img src="./places/image9.jpg" alt="">
+              </div>
+                  <div class="place">
+                    <h2>North Sikkim</h2>
+                    <h4>India</h4>
+                  </div>
+                  <div class="price">
+                    <h4>About</h4>
+                    <p>This largely uninhabited area shares its borders with China and Nepal, offering a mystical allure for travelers seeking rugged landscapes and vibrant meadows.
+                    </p>
+                  </div>
+                  <div>
+                    <button onclick="region4()">Explore</button>
+                  </div>
+
+                  <div class="descibe" id="descibes4" >
+                    <h4>Description</h4>
+                    <p>North Sikkim is a crown jewel nestled in the Indian Himalayas, beckoning travelers with its breathtaking landscapes, rich cultural heritage, and serene ambiance.  This region is a paradise for nature enthusiasts, adventure seekers, and anyone seeking a tranquil escape.</p>
+                  </div>
+            </div>
+
+          </div>
+      </div>
+
+
+      <!-- Region Div end -->
+
+      <!-- Lodge Div start -->
+<div id="seconddiv" data-aos="fade-left" data-aos-duration="500">
+  <h1>Explore Lodging</h1>
+      <div class = "exlporeLodge">
+          <div class="Lodge" data-aos="fade-up" data-aos-duration="3000">
+            <img src="./places/img1.jpg" alt="">
+              <h4>7.0 / 10 Exceptional</h4>
+                  <div class="place">
+                      <h2>Tso Lhamo</h2>
+                      <h4>North Sikkim</h4>
+                  </div>
+                  <div class="price">
+                      <h3>Rs.1,600</h3>
+                      <h4>Per day</h4>
+                      <p>includes taxs</p>
+                  </div>
+                    <div>
+                      <button onclick="bookNow()">Book Now</button>
+                    </div>
+                </div>
+
+
+          <div class="Lodge" data-aos="fade-up" data-aos-duration="3000">
+              <img src="./places/image14.jpg" alt="">
+                  <h4>10.0 / 10 Exceptional</h4>
+                    <div class="place">
+                      <h2>Black Sheep Bed 
+                      </h2>
+                      <h4>Kargil</h4>
+                    </div>
+                    <div class="price">
+                      <h3>Rs.3,200</h3>
+                      <h4>Per day</h4>
+                      <p>includes taxs</p>
+                    </div>
+                    <div>
+                      <button onclick="bookNow()">Book Now</button>
+                    </div>
+              </div>
+
+
+
+              <div class="Lodge" data-aos="fade-up" data-aos-duration="3000">
+                <img src="./places/image12.jpg" alt="">
+                  <h4>7.0 / 10 Exceptional</h4>
+                    <div class="place">
+                      <h2>Summit Panghen Metok</h2>
+                      <h4>North Sikkim</h4>
+                    </div>
+                    <div class="price">
+                      <h3>Rs.5,300</h3>
+                      <h4>Per day</h4>
+                      <p>includes taxs</p>
+                    </div>
+                    <div>
+                      <button onclick="bookNow()">Book Now</button>
+                    </div>
+              </div>
+
+
+
+            <div class="Lodge" data-aos="fade-up" data-aos-duration="3000">
+              <img src="./places/image15.jpg" alt="">
+                <h4>10.0 / 10 Exceptional</h4>
+                    <div class="place">
+                      <h2>OYO Holidayinn </h2>
+                      <h4>North Sikkim</h4>
+                    </div>
+                    <div class="price">
+                      <h3>Rs.2,500</h3>
+                      <h4>Per day</h4>
+                      <p>includes taxs</p>
+                    </div>
+                    <div>
+                      <button onclick="bookNow()">Book Now</button>
+                    </div>
+            </div>
+          </div>
+  </div>
+  
+<!-- Lodge Div end -->
+    
+
+<!-- Hotel div start -->
+        
+    <div id="thirddiv" data-aos="fade-right" data-aos-duration="500">
+      <h1>Explore Hotels</h1>
+      <div class = "exlporeLodge">
+            <div class="Lodge" data-aos="fade-up" data-aos-duration="3000">
+              <img src="./places/image13.jpg" alt="">
+                <h4>10.0 / 10 Exceptional</h4>
+                  <div class="place">
+                    <h2>Laxmi Hotel</h2>
+                    <h4>Kargil</h4>
+                  </div>
+                  <div class="price">
+                    <h3>Rs.500</h3>
+                    <h4>Per day</h4>
+                    <p>includes taxs</p>
+                  </div>
+                  <div>
+                    <button onclick="bookNow()">Book Now</button>
+                  </div>
+                 </div>
+
+
+                 <div class="Lodge" data-aos="fade-up" data-aos-duration="3000">
+                  <img src="./places/img2.jpg" alt="">
+                  <h4>9.0 / 10 Exceptional</h4>
+                  <div class="place">
+                    <h2>Spring Hotel</h2>
+                    <h4>Leh Ladakh</h4>
+                  </div>
+                  <div class="price">
+                    <h3>Rs.5,000</h3>
+                    <h4>Per day</h4>
+                    <p>includes taxs</p>
+                  </div>
+                  <div>
+                    <button onclick="bookNow()">Book Now</button>
+                  </div>
+                 </div>
+        
+        
+                 <div class="Lodge" data-aos="fade-up" data-aos-duration="3000">
+                  <img src="./places/img3.jpg" alt="">
+                  <h4>8.0 / 10 Exceptional</h4>
+                  <div class="place">
+                    <h2>Queen Hotel</h2>
+                    <h4>North Sikkim</h4>
+                  </div>
+                  <div class="price">
+                    <h3>Rs.2,000</h3>
+                    <h4>Per day</h4>
+                    <p>includes taxs</p>
+                  </div>
+                  <div>
+                    <button onclick="bookNow()">Book Now</button>
+                  </div>
+                 </div>
+        
+        
+        
+                 <div class="Lodge" data-aos="fade-up" data-aos-duration="3000">
+                  <img src="./places/img4.jpg" alt="">
+                  <h4>10.0 / 10 Exceptional</h4>
+                  <div class="place">
+                    <h2>Zaya Hotel</h2>
+                    <h4>Kargil</h4>
+                  </div>
+                  <div class="price">
+                    <h3>Rs.4,000</h3>
+                    <h4>Per day</h4>
+                    <p>includes taxs</p>
+                  </div>
+                  <div>
+                    <button onclick="bookNow()">Book Now</button>
+                  </div>
+                 </div>
+              </div>
+        </div>
+
+
+
+        <!-- Hotel div end -->
+
+
+        <!-- Passes div start -->
+        
+        <div id="fourthdiv" data-aos="fade-left" data-aos-duration="500">
+          <h1>Explore Passes</h1>
+          <div class = "exlporePasses">
+                <div class="passes" data-aos="fade-up" data-aos-duration="3000">
+                  <img src="./places/image16.jpg" alt="">
+                      <div class="place">
+                        <h2>Trek to Green Lake
+                        </h2>
+                        <h4>Zemu Glacier</h4>
+                      </div>
+                      <div class="price">
+                        <h3>Rs.3000</h3>
+                        <h4>Per hour</h4>
+                        <p>includes taxs</p>
+                      </div>
+                      <div>
+                        <button onclick="bookNow()">Book Now</button>
+                      </div>
+                     </div>
+                     <div class="passes" data-aos="fade-up" data-aos-duration="3000">
+                      <img src="./places/image17.jpg" alt="">
+                      <div class="place">
+                        <h2>Pangong Lake
+                        </h2>
+                        <h4>Bike Rides</h4>
+                      </div>
+                      <div class="price">
+                        <h3>Rs.2000</h3>
+                        <h4>Per hour</h4>
+                        <p>includes taxs</p>
+                      </div>
+                      <div>
+                        <button onclick="bookNow()">Book Now</button>
+                      </div>
+                     </div>
+            
+            
+                     <div class="passes" data-aos="fade-up" data-aos-duration="3000">
+                      <img src="./places/image18.jpg" alt="">
+                      <div class="place">
+                        <h2>Chadar Trek
+                        </h2>
+                        <h4>Chadar (sheet of ice)</h4>
+                      </div>
+                      <div class="price">
+                        <h3>Rs.500</h3>
+                        <h4>Per hour</h4>
+                        <p>includes taxs</p>
+                      </div>
+                      <div>
+                        <button onclick="bookNow()">Book Now</button>
+                      </div>
+                     </div>
+            
+            
+            
+                     <div class="passes" data-aos="fade-up" data-aos-duration="3000">
+                      <img src="./places/image19.jpg" alt="">
+                      <div class="place">
+                        <h2>Khardung La Pass
+                        </h2>
+                        <h4>Motorable Roads</h4>
+                      </div>
+                      <div class="price">
+                        <h3>Rs.4,000</h3>
+                        <h4>Per hour</h4>
+                        <p>includes taxs</p>
+                      </div>
+                      <div>
+                        <button onclick="bookNow()">Book Now</button>
+                      </div>
+                     </div>
+                  </div>
+            </div>
+<footer>
+  <div class="logo">
+    <h2>Arctic Travels</h2>
+  </div>
+  <div class="footerCon">
+    <div>
+      <h4>Company</h4>
+      <a href="#"><p>About Us</p></a>
+      <a href="#"><p>Rate Us</p></a>
+      <a href="#"><p>Contact Us</p></a>
+      <a href="#"><p>Join</p></a>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <a href="#"><p>India travel guide</p></a>
+      <a href="#"><p>Holiday rentals</p></a>
+      <a href="#"><p>Summer offer</p></a>
+      <a href="#"><p>Travel blogs</p></a>
+      
+    </div>
+    <div>
+      <h4>Policies</h4>
+      <a href="#"><p>Terms of use</p></a>
+      <a href="#"><p>Content guideliness</p></a>
+      <a href="#"><p>Terms and conditions</p></a>
+      <a href="#"><p>Follow rules</p></a>
+      
+      
+    </div>
+    <div>
+      <h4>Help</h4>
+      <a href="#"><p>Support</p></a>
+      <a href="#"><p>Change plan or cancel</p></a>
+      <a href="#"><p>Refund</p></a>
+      <a href="#"><p>Book flights</p></a>
+      
+    </div>
+  </div>
+  <div class="copyRigths">
+    <p>Deepika Mahendran @ 2024 Arctic Travel </p>
+  </div>
+</footer>
+</body>
+<script>
+AOS.init();
+AOS.refresh();
+</script>
+</html>
